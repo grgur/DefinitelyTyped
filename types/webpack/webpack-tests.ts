@@ -510,6 +510,7 @@ webpack({
         chunkModules: true,
         chunkOrigins: true,
         chunksSort: "field",
+        colors: { green: "\u001b[32m" },
         context: "../src/",
         errors: true,
         errorDetails: true,
